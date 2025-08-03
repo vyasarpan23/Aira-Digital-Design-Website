@@ -679,6 +679,23 @@ const About = () => {
         </div>
       </section>
 
+      <section className="py-16 bg-black text-white px-6 bg-gradient-to-b from-[#1e293b] to-[#0f172a]">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-green-400">
+            Explore Our Digital Flipbook
+          </h2>
+          <div className="relative pb-[28%] h-0 overflow-hidden rounded-2xl shadow-xl border border-green-500">
+            <iframe
+              src="https://online.fliphtml5.com/ktowy/nzik/"
+              title="Aira Digital Flipbook"
+              className="absolute top-0 left-0 w-full h-full"
+              allowFullScreen
+              frameBorder="0"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="relative py-12 px-6 bg-gradient-to-r from-green-700 via-[#1a202c] to-green-800 text-white overflow-hidden">
         {/* Floating Glow Effects */}
